@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="questions"></div>
+    <div id="answer-div">
+      <label for="answer">Answer:</label><br />
+      <textarea
+        id="answer"
+        rows="10"
+        columns="100"
+        style="width: 30%"
+      ></textarea>
+    </div>
+
+    <div id="buttons">
+      <button id="submit">Submit</button>
+      <button id="prev">Previous</button>
+      <button id="next">Next</button>
+    </div>
+
+    <div id="response"></div>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

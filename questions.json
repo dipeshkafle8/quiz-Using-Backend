@@ -1,0 +1,32 @@
+[
+  {
+    "question": "How do you declare a variable in JavaScript?"
+  },
+  {
+    "question": "What are the different data types available in JavaScript?"
+  },
+  {
+    "question": "Explain the difference between 'let', 'var', and 'const' in JavaScript."
+  },
+  {
+    "question": "What is hoisting in JavaScript?"
+  },
+  {
+    "question": "What are arrow functions in JavaScript, and how are they different from regular functions?"
+  },
+  {
+    "question": "How does JavaScript handle asynchronous operations?"
+  },
+  {
+    "question": "What is the difference between '==' and '===' in JavaScript?"
+  },
+  {
+    "question": "Explain how closures work in JavaScript."
+  },
+  {
+    "question": "What are promises in JavaScript and how are they used?"
+  },
+  {
+    "question": "What is event delegation in JavaScript and why is it useful?"
+  }
+]
