@@ -15,7 +15,9 @@ let totalQuestions = 0;
 let Questions;
 
 function displayQuestionsOnUI() {
+  answer.value = "";
   question.innerText = "";
+  response.innerText = "";
   const h1 = document.createElement("h1");
   h1.innerText = `${index + 1}) ${Questions[index].question}`;
 
